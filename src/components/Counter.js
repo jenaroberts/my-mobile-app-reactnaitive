@@ -15,10 +15,14 @@ export default function Counter() {
 
 const styles = StyleSheet.create({
   counterContainer: {
-    width: "80vw",
+    width: "80%",
     margin: 14,
     padding: 14,
-    backgroundColor: "beige",
+    backgroundColor: "white",
+    borderRadius: 11,
+    borderStyle: "dotted",
+    borderWidth: 4,
+    borderColor: "black",
   },
   counterText: {
     fontSize: 30,
